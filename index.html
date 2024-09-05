@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickFlipKings</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Media-assets/logo/logo.png">
+</head>
+
+<body>
+    <div id="overlay" class="overlay">
+        <button id="overlay-close">Close</button>
+        <div>
+            <img id="overlay-img" src="./Media-assets/products/skateboard.png" alt="">
+            <img id="overlay-symbol" src="" alt="">
+        </div>
+        <ul class="color-buttons">
+            <li><button class="color-button" id="button-1"></button></li>
+            <li><button class="color-button" id="button-2"></button></li>
+            <li><button class="color-button" id="button-3"></button></li>
+            <li><button class="color-button" id="button-4"></button></li>
+        </ul>
+        <ul class="symbol-buttons">
+            <li><button class="symbol-button" id="button-5"></button></li>
+            <li><button class="symbol-button" id="button-6"></button></li>
+            <li><button class="symbol-button" id="button-7"></button></li>
+            <li><button class="symbol-button" id="button-8"></button></li>
+        </ul>
+    </div>
+    <header>
+        <div class="header-logo">
+            <img src="./Media-assets/logo/logo.png" alt="" class="logo-img">
+            <h1 class="logo-title">KickFlipKings</h1>
+        </div>
+        <nav class="header-nav">
+            <ul class="nav-items">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Products</li>
+                <li class="nav-item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img class="banner-img" src="./banner.jpg" alt="">
+            <h2 class="banner-title">Products</h2>
+        </div>
+        <ul class="product-items" id="js-items">
+            <li class="product-item">
+                <img class="product-img" src="./Media-assets/products/skateboard.png" alt="">
+                <h3 class="product-title" id="js-product-title">Skateboard</h3>
+                <button id='overlay-open' class="product-button">Customize</button>
+            </li>
+            <li class="product-item">
+                <img class="product-img" src="./Media-assets/products/schoen.png" alt="">
+                <h3 class="product-title" id="js-product-title">Schoen</h3>
+                <button id='overlay-open' class="product-button">Customize</button>
+            </li>
+            <li class="product-item">
+                <img class="product-img" src="./Media-assets/products/pet.png" alt="">
+                <h3 class="product-title" id="js-product-title">Pet</h3>
+                <button id='overlay-open' class="product-button">Customize</button>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        something something
+    </footer>
+</body>
+
+</html>
